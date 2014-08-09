@@ -11,7 +11,7 @@
     /** Script necesario para el paso 7*/
 	$(document).ready(function(){
         
-        $(".modal").colorbox({rel:'modal',width:"30%"});
+        $(".modal").colorbox({rel:'modal',width:"60%"});
 		
 		  });
 		  
