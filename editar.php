@@ -60,6 +60,9 @@ $row = mysql_fetch_array($result);
                     <option>PYTHON</option>
                     <option>RUBY</option>
                     <option>SHELL</option>
+                    <option>PEARL</option>
+                    <option>PASCAL</option>
+                    <option>C</option>
                     <option>OTRO</option>
                   </select></td>
               </tr>
