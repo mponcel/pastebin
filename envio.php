@@ -32,7 +32,7 @@
           <form id="form1" name="form1" method="post" action="guardar.php">
             <table width="100%" border="0" cellspacing="3" cellpadding="3">
               <tr>
-                <td colspan="2"><p>Introdusca el nombre y correo electrónico del destinatario:</p></td>
+                <td colspan="2"><p>Introduzca el nombre y correo electrónico del destinatario:</p></td>
                 </tr>
               <tr>
                 <td width="15%" class="labelder">Nombre</td>
