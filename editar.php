@@ -1,6 +1,6 @@
 <?php 
 error_reporting(E_ALL);ini_set("display_errors", 1);
-include("conexion.php");
+include("conf/conexion.php");
 $id = $_POST['id'];
 //echo $id;
 $sql = "SELECT * from codigos WHERE id_codigo=$id";
@@ -13,8 +13,8 @@ $row = mysql_fetch_array($result);
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-<link href="estilo.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="livevalidation.js"></script>
+<link href="css/estilo.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/livevalidation.js"></script>
 <title>Pastebin :: Manuel Ponce</title>
 </head>
 
@@ -23,7 +23,7 @@ $row = mysql_fetch_array($result);
   <tr>
     <td><table width="1024" border="0">
       <tr>
-        <td><img src="imagen.png" alt="" width="313" height="57" /></td>
+        <td><img src="img/imagen.png" alt="" width="313" height="57" /></td>
         <td bgcolor="#732378" class="titulo">Maestría en Software Libre</td>
       </tr>
     </table></td>

@@ -1,6 +1,6 @@
 <?php
 error_reporting(E_ALL);ini_set("display_errors", 1);
-include("conexion.php");
+include("conf/conexion.php");
 
 $id = $_POST['id'];
 $nombre = $_POST['nombre'];

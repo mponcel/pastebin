@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.titulo {
+	font-size: 24px;
+	text-align: center;
+	color: #FFF;
+}
+.cnter {
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	color: #732378;
+}
+.blanco {
+	color: #FFF;
+	text-align:center;
+}
+
+.labelcenter {
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	color: #732378;
+}
+p {
+	color:#666;
+}
+
+a {
+	color:#666;
+}
+
+.texto {
+	color:#666;
+}
+
+.labelder {
+	color:#732378;
+	text-align:right;
+}
+
+.labelizq {
+	text-align:left;
+}
+
+fieldset {
+	font-family: sans-serif;
+	font-size: 14px;
+	border: 1px solid #1F497D;
+	border-radius: 16px; /* CSS3 (Opera 10.5 e Internet Explorer 9) */
+	background-color: #F8F6FC;
+}
+
+fieldset legend {
+    background: #732378;
+    color: #fff;
+    padding: 5px 10px ;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 2px #732378;
+    margin-left: 20px;
+}
+
+/********************************* LiveValidation *************************************/
+
+.LV_valid {
+    color:#00CC00;
+}
+	
+.LV_invalid {
+	color:#990000;
+}
+	
+.LV_validation_message{
+    font-weight:bold;
+    margin:0 0 0 5px;
+}
+    
+.LV_valid_field,
+input.LV_valid_field:hover, 
+input.LV_valid_field:active,
+textarea.LV_valid_field:hover, 
+textarea.LV_valid_field:active,
+.fieldWithErrors input.LV_valid_field,
+.fieldWithErrors textarea.LV_valid_field {
+    border: 1px solid #00CC00;
+}
+    
+.LV_invalid_field, 
+input.LV_invalid_field:hover, 
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover, 
+textarea.LV_invalid_field:active,
+.fieldWithErrors input.LV_invalid_field,
+.fieldWithErrors textarea.LV_invalid_field {
+    border: 1px solid #CC0000;
+}
+/******************************************************************************************/

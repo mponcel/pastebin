@@ -3,10 +3,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-<link href="estilo.css" rel="stylesheet" type="text/css" />
-<link href="colorbox/colorbox.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="jquery_min.js"></script>
-<script type="text/javascript" src="colorbox/jquery.colorbox.js"></script>
+<link href="css/estilo.css" rel="stylesheet" type="text/css" />
+<link href="js/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery_min.js"></script>
+<script type="text/javascript" src="js/colorbox/jquery.colorbox.js"></script>
 <script type="text/javascript">
     /** Script necesario para el paso 7*/
 	$(document).ready(function(){
@@ -24,7 +24,7 @@
   <tr>
     <td><table width="1024" border="0">
       <tr>
-        <td><img src="imagen.png" alt="" width="313" height="57" /></td>
+        <td><img src="img/imagen.png" alt="" width="313" height="57" /></td>
         <td bgcolor="#732378" class="titulo">Maestría en Software Libre</td>
       </tr>
     </table></td>

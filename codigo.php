@@ -1,6 +1,6 @@
 <?php 
 
-include("conexion.php");
+include("conf/conexion.php");
 $id = $_REQUEST['id'];
 //echo $id;
 $sql = "SELECT codigo from codigos WHERE id_codigo=$id";
