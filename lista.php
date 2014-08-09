@@ -16,6 +16,7 @@ echo '<table width="90%" border="0" cellspacing="3" cellpadding="3" align="cente
     <td bgcolor="#FFFFFF" class="labelcenter">Lenguaje</td>
     <td bgcolor="#FFFFFF" class="labelcenter">Creado</td>
 	<td bgcolor="#FFFFFF" class="labelcenter">Edición</td>
+	<td bgcolor="#FFFFFF" class="labelcenter">Correo</td>
   </tr>';
   while($row = mysql_fetch_array($result)) {
 	echo "<tr>
@@ -26,6 +27,11 @@ echo '<table width="90%" border="0" cellspacing="3" cellpadding="3" align="cente
     <td class='texto'>$row[fecha]</td>
 	<td class='texto'><form name='form1' method='post' action='editar.php'>
   <input type='submit' name='editar' id='editar' value='Editar'>
+  <input name='id' type='hidden' value='$row[id_codigo]'>
+</form>
+</td>
+<td class='texto'><form name='form2' method='post' action='envio.php'>
+  <input type='submit' name='editar' id='editar' value='Enviar'>
   <input name='id' type='hidden' value='$row[id_codigo]'>
 </form>
 </td>

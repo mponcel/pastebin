@@ -33,9 +33,9 @@
             <table width="100%" border="0" cellspacing="3" cellpadding="3">
               <tr>
                 <td width="15%" class="labelder">Nombre</td>
-                <td width="85%" class="labelizq"><input name="destinatario" type="text" id="destinatario" size="40"  class="LV_valid_field" />
+                <td width="85%" class="labelizq"><input name="nombre" type="text" id="nombre" size="40"  class="LV_valid_field" />
                   <input type="hidden" name="opcion" id="opcion" value="Mail" />
-                  <input type="hidden" name="id" id="id" value="<?php echo $_POST['id'];?>"  /></td>
+                  <input type="hidden" name="id" id="id"  /></td>
               </tr>
               <tr>
                 <td class="labelder">Correo</td>
@@ -60,15 +60,18 @@
 <script type="text/javascript">
 						
 						
-						var destinatario = new LiveValidation('destinatario');
-						var correo = new LiveValidation('correo');
-					
-						
-						destinatario.add(Validate.Presence);
-						destinatario.add( Validate.Length, { minimum: 3 } );
-						correo.add( Validate.Email );
+						var nombre = new LiveValidation('nombre');
+						var autor = new LiveValidation('autor');
+						var descripcion = new LiveValidation('descripcion');
+						var codigo = new LiveValidation('codigo');
 						
 						
+						nombre.add(Validate.Presence);
+						nombre.add( Validate.Length, { minimum: 3 } );
+						autor.add(Validate.Presence);
+						descripcion.add(Validate.Presence);
+						nombre.add( Validate.Length, { minimum: 5 } );
+						codigo.add(Validate.Presence);
 						
 	
 					</script>   
